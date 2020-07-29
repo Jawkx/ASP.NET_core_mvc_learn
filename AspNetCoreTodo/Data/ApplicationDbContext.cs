@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using AspNetCoreTodo.Models;
 
 namespace AspNetCoreTodo.Data
 {
@@ -12,5 +13,7 @@ namespace AspNetCoreTodo.Data
             : base(options)
         {
         }
+
+        public DbSet<TodoItem> Items {get; set; }
     }
 }

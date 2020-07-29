@@ -10,3 +10,5 @@ For documenting my learning of ASP.NET core MVC using [little aspnetcorebook](ht
 - Created basic control function
 - Created some models
 - Created service class (granted not yet integrate with real data)
+- Created Migration for database
+- Learn to delete Fake service class for database and add a real one via sqllite
